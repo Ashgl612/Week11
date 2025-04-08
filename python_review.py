@@ -24,4 +24,41 @@ $$$Variable = "bad"
 '''
 x = type(3)
 y =type("Hello")
-z =type(True)
+z =type(True) 
+print (x)
+print(y)
+print(z)
+
+
+#put hte Data Type in the comment
+my_integer = 42    #integer
+my_integer_type = type(my_integer)
+print(my_integer_type)
+my_float = 3.14   #float
+my_float_type = type (my_float)
+print(my_float_type)
+my_string = "Hello, wold!"   #String
+my_string_type = type(my_string)
+print(my_string_type)
+my_boolean_true = True   #Boolean
+my_boolean_true_type = type(my_boolean_true)
+print(my_boolean_true_type)
+my_boolean_false = False  #Boolean
+my_boolean_false_type = type(my_boolean_false)
+print(my_boolean_false_type)
+my_none_value = None   #None
+my_none_value_type = type(my_none_value)
+print(my_none_value_type)
+my_negative_integer = -7   #integer
+my_negative_integer_type = type(my_negative_integer)
+print(my_negative_integer_type)
+my_large_float = 1.2345689  #float
+my_large_float_type = type(my_large_float)
+print(my_large_float_type)
+my_single_character = "A"  #string
+my_single_character_type = type(my_single_character)
+print(my_single_character_type)
+my_empty_string = ""       #
+my_empty_string_type = type(my_empty_string)
+print(my_empty_string_type)
+                        
